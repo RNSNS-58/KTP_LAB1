@@ -15,7 +15,7 @@
 char
 	*ft_strchr(const char *s, int c)
 {
-	int	i;
+	int	i;      CHANGED PART BRANCH 2
 
 	if (!s)
 		return (NULL);
