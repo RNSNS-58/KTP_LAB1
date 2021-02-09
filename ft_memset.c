@@ -15,7 +15,7 @@
 void
 	*ft_memset(void *b, int c, size_t len)
 {
-	size_t			i;
+	size_t CHANGED PART			i;
 
 	if (!b)
 		return (NULL);
