@@ -13,7 +13,7 @@ size_t strlcat(char * dst, const char * src, size_t maxlen) {
     const size_t dstlen = strnlen(dst, maxlen);
     if (dstlen == maxlen) return maxlen+srclen;
     if (srclen < maxlen-dstlen) {
-        memcpy(dst+dstlen, src, srclen+1);
+        memcpy(dst+dstlen, src, srclen+1);   !CHANGED PART!
     } else {
         memcpy(dst+dstlen, src, maxlen-1);
         dst[dstlen+maxlen-1] = '\0';
