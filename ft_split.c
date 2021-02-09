@@ -15,7 +15,7 @@
 static char
 	**ft_alloc_split(char const *s, char c)
 {
-	size_t	i;
+	size_t	i;         CHANGED PART IN BRANCH_1
 	char	**split;
 	size_t	total;
 
